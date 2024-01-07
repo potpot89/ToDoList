@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Lemon", serif;
+  font-size: 40px;
+}
+
+main {
+  font-family: "Diphylleia", serif;
+  font-size: 20px;
+}
+
+input,
+button {
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+}

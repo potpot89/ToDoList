@@ -5,21 +5,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Jamila Zini" />
-    <meta name="description" content="Webapp ToDo list" />
+    <meta name="description" content="Webapp shopping list" />
     <meta name="copyright" content="HTML" />
-    <title>ToDoList</title>
+    <title>Shopping list</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Diphylleia&family=Lemon&family=PT+Serif&display=swap");
+    </style>
   </head>
   <body>
     <header>
-      <h1>My ToDoList</h1>
+      <h1>My ShoppingList</h1>
     </header>
     <main>
-      <input type="text" placeholder="Add activity to the ToDoList" />
-      <button>Add</button>
-      <ul>
-        <li>Studia Javascript <button>X</button></li>
+      <input
+        id="list-input"
+        type="text"
+        placeholder="Add item to your shopping list"
+      />
+      <button id="add-button">Add</button>
+      <ul id="shopping-list">
+        <!--create <li> items when pressing the Add button. The elements come with the button to mark them as completed-->
       </ul>
     </main>
     <footer></footer>
