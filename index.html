@@ -9,7 +9,7 @@
     <meta name="copyright" content="HTML" />
     <title>Shopping list</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="sctipt2.js" defer></script>
+    <script src="script.js" defer></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Diphylleia&family=Lemon&family=PT+Serif&display=swap");
     </style>
@@ -19,15 +19,15 @@
       <h1>My ShoppingList</h1>
     </header>
     <main>
-      <input
-        id="newItemInput"
-        type="text"
-        placeholder="Add item to your shopping list"
-      />
-      <button id="addItemButton">Add</button>
-      <ul id="myList">
-        <!--create <li> items when pressing the Add button. The elements come with the button to mark them as completed-->
-      </ul>
+      <div id="flex-container">
+        <div id="input-container">
+          <input id="newItemInput" type="text" placeholder="My new item" />
+          <button id="addItemButton">Add</button>
+        </div>
+        <ul id="myList">
+          <!--create <li> items when pressing the Add button. The elements come with the button to mark them as completed-->
+        </ul>
+      </div>
     </main>
     <footer></footer>
   </body>
